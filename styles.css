@@ -1,0 +1,169 @@
+html body {
+    font-family: "Times New Roman", Georgia, Serif;
+    letter-spacing: 4px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.top-nav {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.top-nav a {
+    display: inline-block;
+    color: #000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    flex: 1;
+    /*box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+*/
+}
+
+.top-nav a:hover {
+    background: gray;
+}
+
+.top-nav-right {
+    float: right;
+    display: inline-flex;
+}
+
+header img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.burger-family {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    color: rgb(65, 63, 63);
+}
+
+.burger-title {
+    position: absolute;
+    bottom: 10px;
+    left: 16px;
+    padding: 12px 24px !important;
+    opacity: 0.6;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.home-row {
+    display: inline-flex;
+    height: 800;
+    font-size: 18px;
+    box-sizing: inherit;
+    padding: 100px 100px;
+    line-height: 1.5;
+}
+
+.column {
+    flex: 50%;
+    padding: 50px 50px;
+    display: inline;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.column h2 {
+    align-items: center;
+    text-align: center;
+}
+
+.column h4 {
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+    position: relative;
+}
+
+.gray-paragraph {
+    color: rgb(71, 70, 70);
+}
+
+.menu-paragraph {
+    font-size: 13px;
+    color: rgb(83, 80, 80);
+    line-height: 1.5;
+    position: relative;
+}
+
+.menu-head {
+    text-align: center;
+}
+
+.blue-text {
+    color: rgb(39, 65, 99);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.menu-row {
+    display: flex;
+    height: 800;
+    padding: 25px 25px;
+}
+
+.menu-column {
+    flex: 50%;
+}
+
+.home-row img {
+    opacity: 0.5;
+}
+
+.menu img {
+    opacity: 0.5;
+}
+
+hr {
+    height: 20vh;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightslategray;
+    text-align: left;
+    line-height: 45px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+button {
+    margin: auto;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+.contact {
+    padding: 150px 150px;
+    left: 100px;
+    width: 80%;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+}
